@@ -1,13 +1,12 @@
 package com.fengyue.bangcle;
 
 import java.util.Arrays;
+import java.util.Base64;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 public class AESUtil {
 
@@ -59,12 +58,11 @@ public class AESUtil {
 	/**
 	 * 解密
 	 * 
-	 * @param encrypted
 	 * @return
 	 */
 	public static String decrypt(String encryptData) {
 		try {
-            byte[] tmp=new BASE64Decoder().decodeBuffer(encryptData);
+			byte[] tmp=Base64.getDecoder().decode(encryptData);
             byte[]  iv=new byte[16];
             Arrays.fill(iv, (byte)0);
 			//IvParameterSpec zeroIv = new IvParameterSpec(iv);

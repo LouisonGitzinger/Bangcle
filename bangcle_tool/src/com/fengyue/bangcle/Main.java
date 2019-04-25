@@ -75,7 +75,9 @@ public class Main {
 
 			// 确保apktool.jar放在工作目录下
 			SystemCommand.execute("apktool d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
-			
+			SystemCommand.execute(toolsPath + "/fix_png.sh " + decompiledFile.getAbsolutePath() + "/res/drawable");
+//			SystemCommand.execute("apktool d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
+
 			System.out.println("反编译结束,生成目录" + decompiledFile.getAbsolutePath());
 			
 			decompiled = true;
@@ -136,6 +138,8 @@ public class Main {
 							+ decompiledPath+ " -o "+outputPath);
 					System.out.println("重编译完成");
 					System.out.println("正在签名Apk");
+					File apkToSign = new File(outputPath);
+//					signApk(apkToSign, outputSignPath, "/Users/lgitzing/Library/Android/sdk/build-tools/27.0.2/apksigner","/Users/lgitzing/.android/master_keystore","pt5sF4b8H2Fz6NAE");
 					signApk_x509(outputPath,outputSignPath);
 					System.out.println("重签名完成");
 					System.out.println("加固Apk目录:"+outputSignPath);
@@ -171,8 +175,6 @@ public class Main {
 				
 	}
 
-
-	
 
 	/**
 	 * 执行此方法确保，jarsigner的路径被添加到系统环境变量中
