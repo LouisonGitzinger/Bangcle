@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f4c32db-0bb2-4015-a965-7a731b174578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangcle_tool/bangcle_tool.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangcle_tool/bin/com/fengyue/bangcle/AESUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bangcle_tool/bin/com/fengyue/bangcle/AESUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangcle_tool/bin/com/fengyue/bangcle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bangcle_tool/bin/com/fengyue/bangcle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/AESUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangcle_tool/tools/fix_png.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bangcle_tool/tools/fix_png.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bangcle_tool/bin/" />
@@ -31,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
+            <state relative-caret-position="450">
+              <caret line="80" column="79" selection-start-line="80" selection-start-column="79" selection-end-line="80" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bangcle_tool/tools/fix_png.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -219,7 +214,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fengyue.bangcle.Main" />
       <module name="bangcle_tool" />
-      <option name="PROGRAM_PARAMETERS" value="b locker-fe666e209e094968d3178ecf0cf817164c26d5501ed3cd9a80da786a4a3f3dc4.apk" />
+      <option name="PROGRAM_PARAMETERS" value="b locker-fa9df1c998604f2bcd464913601c3e202025d48af6da344efc4d10dbfe6ae26d.apk" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bangcle_tool" />
       <extension name="coverage">
         <pattern>
@@ -271,12 +266,12 @@
       <updated>1556126171181</updated>
       <workItem from="1556126174356" duration="3210000" />
       <workItem from="1556196857235" duration="3859000" />
-      <workItem from="1556203008556" duration="3300000" />
+      <workItem from="1556203008556" duration="3610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10369000" />
+    <option name="totallyTimeSpent" value="10679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -291,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34513274" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34513274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4238938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,15 +373,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bangcle_tool/tools/fix_png.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bangcle_tool/src/com/fengyue/bangcle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
+        <state relative-caret-position="450">
+          <caret line="80" column="79" selection-start-line="80" selection-start-column="79" selection-end-line="80" selection-end-column="79" />
         </state>
       </provider>
     </entry>

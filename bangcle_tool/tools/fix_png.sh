@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for png_file in "$1"/*.png
+for png_file in "$1"/*/*.png
 do
 	if [[ $(file -b ${png_file}) =~ JPEG ]];
 	then

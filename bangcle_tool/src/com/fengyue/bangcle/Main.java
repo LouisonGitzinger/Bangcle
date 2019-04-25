@@ -75,7 +75,7 @@ public class Main {
 
 			// 确保apktool.jar放在工作目录下
 			SystemCommand.execute("apktool d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
-			SystemCommand.execute(toolsPath + "/fix_png.sh " + decompiledFile.getAbsolutePath() + "/res/drawable");
+			SystemCommand.execute(toolsPath + "/fix_png.sh " + decompiledFile.getAbsolutePath() + "/res");
 //			SystemCommand.execute("apktool d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
 
 			System.out.println("反编译结束,生成目录" + decompiledFile.getAbsolutePath());
