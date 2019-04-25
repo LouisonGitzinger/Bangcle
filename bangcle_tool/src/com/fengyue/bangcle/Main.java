@@ -74,7 +74,7 @@ public class Main {
 			System.out.println("正在反编译" + apkPath);
 
 			// 确保apktool.jar放在工作目录下
-			SystemCommand.execute("java -jar tools/apktool.jar d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
+			SystemCommand.execute("apktool d " + apkPath+" -o "+decompiledFile.getAbsolutePath()+" -s -f");
 			
 			System.out.println("反编译结束,生成目录" + decompiledFile.getAbsolutePath());
 			
@@ -214,7 +214,7 @@ public class Main {
 	private static boolean alterAndroidMainifest(String workPath) {
 		// TODO Auto-generated method stub
 		String manifestFileName = "AndroidManifest.xml";
-		File manifestFile = new File(workPath + "\\" + manifestFileName);
+		File manifestFile = new File(workPath + "/" + manifestFileName);
 		if (!manifestFile.exists()) {
 			System.err.println("找不到" + manifestFile.getAbsolutePath());
 			return false;
